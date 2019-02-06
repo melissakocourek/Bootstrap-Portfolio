@@ -1,7 +1,8 @@
 *{
     box-sizing:border-box;
 }
-/* I wasn't able to get the logo ahead of the header and out of the way of the navigation*/
+
+/* One thing I would add to the logo is a z-index so it would come before the header */
 #logo {
     float: left;
     width: 250px;
@@ -138,6 +139,11 @@ h3{
 }
 
 /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align:center;
+    color:BLACK;
+}
 .centered{
     position: absolute;
     width:100%;
